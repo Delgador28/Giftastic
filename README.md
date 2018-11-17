@@ -34,7 +34,7 @@ Here we are animating the gif when clicked. We have set a variable to "state" wh
 
 ## Deployment
 
-Check out the game here: [Giftastic](https://delgador28.github.io/Giftastic/) - Happy Playing!
+Check out the app here: [Giftastic](https://delgador28.github.io/Giftastic/) - Happy Playing!
 
 
 ## Made With
