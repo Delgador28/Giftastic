@@ -5,31 +5,29 @@
     <meta charset="utf-8">
     <title>Giftastic</title>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
-        <h1>Paradise Gif Search</h1>
-
-        <div id="buttonPlace"></div>
-
-        <div class="buttonArea"></div>
-    
-    <form id="gifForm">
-        <label for="gifInput">Add Your Own Paradise Button</label>
-        <input type="text" id="gifInput" placeholder="Enter Island Here">
-        <br>
-        <input id="addGif" type="submit" value="Add Paradise Button">
-    </form>
+        <h1>Looking for a view?</h1>
+        <div id="everything">
+            <div id="buttonPlace"></div>
+            <form id="gifForm">
+                <input type="text" id="gifInput" placeholder="Type away ~">
+                <br>
+                <input id="addGif" class='btn btn-outline-light add' type="submit" value="Add A Button">
+            </form>
+        </div>
     </div>
+
     <div id="paradiseGifView"></div>
 
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js" type="text/javascript"></script>
 
-
-   
-          <!-- "https://api.giphy.com/v1/gifs/search?q=" 
-          "&api_key=x7edH3PEAj8tLsWWXZnUFClzMfdFlOav&limit=15" -->
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-          <script src="assets/javascript/app.js" type="text/javascript"></script>
 </body>
+
 </html>
