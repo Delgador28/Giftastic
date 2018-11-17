@@ -6,8 +6,8 @@ In Giftastic the user will have the ability to click and view a gif based on con
 
 User will begin on a screen that shows different buttons, once a button is clicked the contents of said button will be shown in form of a gif. If user wishes to see a different option, they will have the ability to type in a subject and create a new button for it. Once a button is clicked all results for the subject will be displayed. Gif animation can be provoked by clicking a gif of choice.
 
-![Gif Page Home](assets/images/gif-1.png)
-![Gif Page In Action](assets/images/gif2-clicked.png)
+![Gif Page Home](assets/images/gif2-clicked.png)
+![Gif Page In Action](assets/images/gif-1.png)
 
 ### Want a Sneak Peak of the code? Well here you have it! 
 
